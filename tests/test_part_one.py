@@ -1,4 +1,4 @@
-from spacy_ml_train import generate_rules, create_training_data, read_and_analyze_text
+from part1_spacy_ml_train import generate_rules, create_training_data, read_and_analyze_text
 import spacy
 
 
