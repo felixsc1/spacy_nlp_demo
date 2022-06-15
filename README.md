@@ -24,3 +24,12 @@ To generalize the model to unseen texts, a machine learning approach is needed.
 
 Uses entity ruler created in part one to create a training data set, consisting of text and labeled entities in it.
 Output is stored as json for review, and converted to .spacy binary format for training in part 3.
+
+### part3:
+
+Training a model. As of spaCy v3, this is done via command line. See the file for the commands to create a config file and train a model.
+However, since this model does not contain word vectors, it still cannot generalize over new texts.
+
+### part4:
+
+code shows on a simple example how to generate word vectors using gensim, then load them into a spacy model.

@@ -4,6 +4,8 @@
 
 ## Spacy
 hp_ner/
+models/
+data/sample_model/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
